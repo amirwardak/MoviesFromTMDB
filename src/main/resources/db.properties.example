@@ -1,0 +1,11 @@
+# Пример конфигурации подключения к базе данных PostgreSQL
+# Скопируйте этот файл в db.properties и замените значения на свои
+
+# URL подключения (обычно localhost:5432, если вы не меняли порт при установке)
+db.url=jdbc:postgresql://localhost:5432/movies_db
+
+# Имя пользователя базы данных (по умолчанию часто postgres)
+db.user=postgres
+
+# Ваш пароль от базы данных
+db.password=your_password_here

@@ -1,0 +1,12 @@
+# Пример конфигурации для работы с TMDB API
+# Скопируйте этот файл в config.properties и замените значения на свои
+# (файл db.properties.example подскажет, что делать с базой данных)
+
+# Ваш API-ключ (JWT) с сайта https://www.themoviedb.org/settings/api
+tmdb.api.key=your_api_key_here
+
+# Базовый URL API (обычно менять не нужно)
+tmdb.base.url=https://api.themoviedb.org/3
+
+# Базовый URL картинок постера
+tmdb.image.base.url=https://image.tmdb.org/t/p/w500
